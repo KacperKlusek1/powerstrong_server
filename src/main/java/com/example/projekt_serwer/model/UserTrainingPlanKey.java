@@ -16,8 +16,8 @@ import java.util.Objects;
 public class UserTrainingPlanKey implements Serializable {
 
     @Column(name = "user_id")
-    private Long userId;
+    private Integer userId;
 
     @Column(name = "training_plan_id")
-    private Long trainingPlanId;
+    private Integer trainingPlanId;
 }

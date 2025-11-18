@@ -2,9 +2,7 @@ package com.example.projekt_serwer.model;
 
 import jakarta.persistence.*;
 import jakarta.validation.constraints.NotNull;
-import lombok.Getter;
-import lombok.NoArgsConstructor;
-import lombok.Setter;
+import lombok.*;
 
 import java.time.LocalDateTime;
 
@@ -13,10 +11,11 @@ import java.time.LocalDateTime;
 @Getter
 @Setter
 @NoArgsConstructor
+@AllArgsConstructor
 public class ExecutedSet {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private Long id;
+    private int id;
 
     @ManyToOne
     @JoinColumns({
@@ -31,15 +30,15 @@ public class ExecutedSet {
 
     @NotNull
     @Column(name = "set_number", nullable = false)
-    private Integer setNumber;
+    private int setNumber;
 
     @NotNull
     @Column(name = "executed_reps", nullable = false)
-    private Integer executedReps;
+    private int executedReps;
 
     @NotNull
     @Column(name = "weight_used", nullable = false)
-    private Double weightUsed;
+    private double weightUsed;
 
     @Column(name = "execution_date", nullable = false)
     private LocalDateTime executionDate;
