@@ -14,7 +14,7 @@ import pl.pollub.powerstrong_server.dto.auth.RegisterRequest;
 @RequestMapping("${app.api.prefix}/auth")
 @RequiredArgsConstructor
 public class AuthController {
-    private final com.example.powerstrong_server.service.AuthenticationService service;
+    private final pl.pollub.powerstrong_server.service.AuthenticationService service;
 
     @PostMapping("/register")
     public ResponseEntity<AuthResponse> register(

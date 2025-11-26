@@ -1,7 +1,7 @@
-package com.example.powerstrong_server.controller;
+package pl.pollub.powerstrong_server.controller;
 
-import com.example.powerstrong_server.dto.*;
-import com.example.powerstrong_server.service.ReferenceDataService;
+import pl.pollub.powerstrong_server.dto.*;
+import pl.pollub.powerstrong_server.service.ReferenceDataService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.GetMapping;

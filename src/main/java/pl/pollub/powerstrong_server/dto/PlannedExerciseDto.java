@@ -1,6 +1,6 @@
-package com.example.powerstrong_server.dto;
+package pl.pollub.powerstrong_server.dto;
 
-import com.example.powerstrong_server.enums.SuggestionType;
+import pl.pollub.powerstrong_server.enums.SuggestionType;
 import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;

@@ -1,10 +1,10 @@
-package com.example.powerstrong_server.controller;
+package pl.pollub.powerstrong_server.controller;
 
-import com.example.powerstrong_server.dto.ExecutedSetDto;
-import com.example.powerstrong_server.dto.PlanCompletionRequestDto;
-import com.example.powerstrong_server.dto.TrainingPlanFullDto;
-import com.example.powerstrong_server.model.User;
-import com.example.powerstrong_server.service.TrainingService;
+import pl.pollub.powerstrong_server.dto.ExecutedSetDto;
+import pl.pollub.powerstrong_server.dto.PlanCompletionRequestDto;
+import pl.pollub.powerstrong_server.dto.TrainingPlanFullDto;
+import pl.pollub.powerstrong_server.model.User;
+import pl.pollub.powerstrong_server.service.TrainingService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.ResponseEntity;
 import org.springframework.security.core.Authentication;

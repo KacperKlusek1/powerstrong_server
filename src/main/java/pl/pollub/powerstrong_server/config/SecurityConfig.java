@@ -1,6 +1,6 @@
 package pl.pollub.powerstrong_server.config;
 
-import com.example.powerstrong_server.utils.JwtAuthenticationFilter;
+import pl.pollub.powerstrong_server.utils.JwtAuthenticationFilter;
 import lombok.RequiredArgsConstructor;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;

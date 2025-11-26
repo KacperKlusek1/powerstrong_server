@@ -1,6 +1,6 @@
-package com.example.powerstrong_server.utils;
+package pl.pollub.powerstrong_server.utils;
 
-import com.example.powerstrong_server.service.JwtService;
+import pl.pollub.powerstrong_server.service.JwtService;
 import jakarta.servlet.FilterChain;
 import jakarta.servlet.ServletException;
 import jakarta.servlet.http.HttpServletRequest;

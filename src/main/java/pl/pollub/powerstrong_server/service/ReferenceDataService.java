@@ -1,8 +1,8 @@
-package com.example.powerstrong_server.service;
+package pl.pollub.powerstrong_server.service;
 
-import com.example.powerstrong_server.dto.*;
-import com.example.powerstrong_server.repository.*;
-import com.example.powerstrong_server.utils.EntityDtoMapper;
+import pl.pollub.powerstrong_server.dto.*;
+import pl.pollub.powerstrong_server.repository.*;
+import pl.pollub.powerstrong_server.utils.EntityDtoMapper;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;

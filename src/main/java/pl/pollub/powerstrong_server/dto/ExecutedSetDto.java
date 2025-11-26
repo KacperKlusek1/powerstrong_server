@@ -1,4 +1,4 @@
-package com.example.powerstrong_server.dto;
+package pl.pollub.powerstrong_server.dto;
 
 import lombok.AllArgsConstructor;
 import lombok.Builder;

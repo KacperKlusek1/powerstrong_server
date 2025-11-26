@@ -1,10 +1,10 @@
-package com.example.powerstrong_server.service;
+package pl.pollub.powerstrong_server.service;
 
-import com.example.powerstrong_server.dto.PlannedExerciseDto;
-import com.example.powerstrong_server.enums.SuggestionType;
-import com.example.powerstrong_server.model.EffortType;
-import com.example.powerstrong_server.model.PlannedExercise;
-import com.example.powerstrong_server.model.UserExerciseMax;
+import pl.pollub.powerstrong_server.dto.PlannedExerciseDto;
+import pl.pollub.powerstrong_server.enums.SuggestionType;
+import pl.pollub.powerstrong_server.model.EffortType;
+import pl.pollub.powerstrong_server.model.PlannedExercise;
+import pl.pollub.powerstrong_server.model.UserExerciseMax;
 import org.springframework.stereotype.Service;
 
 import java.util.Optional;

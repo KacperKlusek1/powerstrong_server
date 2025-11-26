@@ -1,8 +1,10 @@
 package pl.pollub.powerstrong_server.utils;
 
 import org.springframework.stereotype.Component;
-import pl.pollub.powerstrong_server.dto.UserDto;
-import pl.pollub.powerstrong_server.model.User;
+import pl.pollub.powerstrong_server.dto.ExerciseDto;
+import pl.pollub.powerstrong_server.dto.*;
+import pl.pollub.powerstrong_server.enums.PlanStatus;
+import pl.pollub.powerstrong_server.model.*;
 
 import java.util.List;
 import java.util.stream.Collectors;

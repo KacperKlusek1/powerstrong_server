@@ -1,11 +1,11 @@
-package com.example.powerstrong_server.controller;
+package pl.pollub.powerstrong_server.controller;
 
-import com.example.powerstrong_server.dto.TrainingPlanFullDto;
-import com.example.powerstrong_server.dto.UserDto;
-import com.example.powerstrong_server.dto.UserExerciseMaxDto;
-import com.example.powerstrong_server.model.User;
-import com.example.powerstrong_server.service.TrainingService;
-import com.example.powerstrong_server.service.UserService;
+import pl.pollub.powerstrong_server.dto.TrainingPlanFullDto;
+import pl.pollub.powerstrong_server.dto.UserDto;
+import pl.pollub.powerstrong_server.dto.UserExerciseMaxDto;
+import pl.pollub.powerstrong_server.model.User;
+import pl.pollub.powerstrong_server.service.TrainingService;
+import pl.pollub.powerstrong_server.service.UserService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.ResponseEntity;
 import org.springframework.security.core.Authentication;
