@@ -4,20 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e604b481-67f9-4e05-9996-c4b52be49c9a" name="Changes" comment="Fix: Added project files (#POWERSTRONG)">
-      <change beforePath="$PROJECT_DIR$/.gradle/8.14/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.14/executionHistory/executionHistory.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/8.14/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.14/executionHistory/executionHistory.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/8.14/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.14/fileHashes/fileHashes.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/8.14/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.14/fileHashes/fileHashes.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/8.14/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.14/fileHashes/resourceHashesCache.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/file-system.probe" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/file-system.probe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/powerstrong_server.main.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/powerstrong_server.main.iml" afterDir="false" />
+    <list default="true" id="e604b481-67f9-4e05-9996-c4b52be49c9a" name="Changes" comment="Fix: Updated project files (#POWERSTRONG)">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/problems/problems-report.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/problems/problems-report.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/application.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/tmp/compileJava/previous-compilation-data.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/tmp/compileJava/previous-compilation-data.bin" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,17 +48,16 @@
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-    <option name="UPDATE_TYPE" value="REBASE" />
   </component>
   <component name="GitRewordedCommitMessages">
     <option name="commitMessagesMapping">
       <RewordedCommitMessageMapping>
-        <option name="originalMessage" value="Feat: Added EffortType model (#POWERSTRONG)" />
-        <option name="rewordedMessage" value="Implement user and training domain entities.&#10;Add JPA repositories for domain models.&#10;(#POWERSTRONG)" />
+        <option name="originalMessage" value="Fix: Fixed api prefix (#POWERSTRONG)" />
+        <option name="rewordedMessage" value="Fix: Updated project files (#POWERSTRONG)&#10;Fix: Fixed api prefix (#POWERSTRONG)" />
       </RewordedCommitMessageMapping>
     </option>
     <option name="currentCommit" value="1" />
-    <option name="onto" value="b7da642bd5b08238de86c7d450af5ee527935ec4" />
+    <option name="onto" value="648e6f5df0c89aa528180322ef4276eeb18ff3dd" />
   </component>
   <component name="GithubPullRequestsUISettings">{
   &quot;selectedUrlAndAccountId&quot;: {
@@ -78,6 +65,11 @@
     &quot;accountId&quot;: &quot;f75b309d-3ec6-4b6b-a1fc-f45ceaf3c67a&quot;
   }
 }</component>
+  <component name="InvalidFacetManager">
+    <ignored-facets>
+      <facet id="powerstrong_server.main/invalid/Web" />
+    </ignored-facets>
+  </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 5
 }</component>
@@ -89,27 +81,27 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Gradle.Build powerstrong_server.executor": "Run",
-    "Gradle.powerstrong_server [:PowerstrongServerApplication.main()].executor": "Debug",
-    "RequestMappingsPanelOrder0": "0",
-    "RequestMappingsPanelOrder1": "1",
-    "RequestMappingsPanelWidth0": "75",
-    "RequestMappingsPanelWidth1": "75",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "Spring Boot.PowerstrongServerApplication.executor": "Run",
-    "git-widget-placeholder": "Feat/Tests",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/barte/OneDrive/Pulpit/VII semestr/7.SE.1 Zaawansowane Programowanie w Javie/Laboratorium/powerstrong_server",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0",
-    "settings.editor.selected.configurable": "reference.settingsdialog.project.gradle"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Gradle.Build powerstrong_server.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.powerstrong_server [:PowerstrongServerApplication.main()].executor&quot;: &quot;Debug&quot;,
+    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
+    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
+    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
+    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;Spring Boot.PowerstrongServerApplication.executor&quot;: &quot;Run&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;Feat/Tests&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/barte/OneDrive/Pulpit/VII semestr/7.SE.1 Zaawansowane Programowanie w Javie/Laboratorium/powerstrong_server&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settingsdialog.project.gradle&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager">
     <configuration name="PowerstrongServerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <module name="powerstrong_server.main" />
@@ -384,7 +376,23 @@
       <option name="project" value="LOCAL" />
       <updated>1764172297513</updated>
     </task>
-    <option name="localTasksCounter" value="33" />
+    <task id="LOCAL-00033" summary="Fix: Fixed api prefix (#POWERSTRONG)">
+      <option name="closed" value="true" />
+      <created>1764174959136</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1764174959136</updated>
+    </task>
+    <task id="LOCAL-00034" summary="Fix: Updated project files (#POWERSTRONG)">
+      <option name="closed" value="true" />
+      <created>1764174978964</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1764174978964</updated>
+    </task>
+    <option name="localTasksCounter" value="35" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -419,9 +427,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Feat: Added TrainingDayRepository (#POWERSTRONG)" />
-    <MESSAGE value="Feat: Added TrainingMethodRepository (#POWERSTRONG)" />
-    <MESSAGE value="Feat: Added TrainingPlanRepository (#POWERSTRONG)" />
     <MESSAGE value="Feat: Added UserExerciseMaxRepository (#POWERSTRONG)" />
     <MESSAGE value="Feat: Added UserRepository (#POWERSTRONG)" />
     <MESSAGE value="Feat: Added UserTrainingPlanRepository (#POWERSTRONG)" />
@@ -444,6 +449,9 @@
     <MESSAGE value="Implement user and training domain entities.&#10;Add JPA repositories for domain models.&#10;(#POWERSTRONG)" />
     <MESSAGE value="Fix: Added project files to version control (#POWERSTRONG)" />
     <MESSAGE value="Fix: Fixed package name (#POWERSTRONG)" />
-    <option name="LAST_COMMIT_MESSAGE" value="Fix: Fixed package name (#POWERSTRONG)" />
+    <MESSAGE value="Fix: Fixed api prefix (#POWERSTRONG)" />
+    <MESSAGE value="Fix: Updated project files (#POWERSTRONG)" />
+    <MESSAGE value="Fix: Updated project files (#POWERSTRONG)&#10;Fix: Fixed api prefix (#POWERSTRONG)" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fix: Updated project files (#POWERSTRONG)&#10;Fix: Fixed api prefix (#POWERSTRONG)" />
   </component>
 </project>
