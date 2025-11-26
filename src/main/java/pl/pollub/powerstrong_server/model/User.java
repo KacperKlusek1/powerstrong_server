@@ -1,7 +1,7 @@
 package pl.pollub.powerstrong_server.model;
 
-import com.example.powerstrong_server.enums.UserRole;
-import com.example.powerstrong_server.enums.UserStatus;
+import pl.pollub.powerstrong_server.enums.UserRole;
+import pl.pollub.powerstrong_server.enums.UserStatus;
 import jakarta.persistence.*;
 import jakarta.validation.constraints.Email;
 import jakarta.validation.constraints.NotBlank;

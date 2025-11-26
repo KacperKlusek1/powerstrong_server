@@ -1,8 +1,8 @@
 package pl.pollub.powerstrong_server.repository;
 
-import org.springframework.data.jpa.repository.JpaRepository;
 import pl.pollub.powerstrong_server.model.TrainingPlan;
 import pl.pollub.powerstrong_server.model.User;
+import org.springframework.data.jpa.repository.JpaRepository;
 
 import java.util.List;
 

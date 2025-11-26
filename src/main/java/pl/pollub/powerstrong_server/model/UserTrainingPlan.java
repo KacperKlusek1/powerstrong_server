@@ -1,6 +1,6 @@
 package pl.pollub.powerstrong_server.model;
 
-import com.example.powerstrong_server.enums.PlanStatus;
+import pl.pollub.powerstrong_server.enums.PlanStatus;
 import jakarta.persistence.*;
 import jakarta.validation.constraints.NotNull;
 import lombok.Getter;
