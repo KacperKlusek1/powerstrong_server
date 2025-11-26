@@ -4,12 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e604b481-67f9-4e05-9996-c4b52be49c9a" name="Changes" comment="Fix: Added project files to version control (#POWERSTRONG)">
-      <change beforePath="$PROJECT_DIR$/.idea/powerstrong_server.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/powerstrong_server.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Merge_at_26_11_2025_14_30__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Merge_at_26_11_2025_14_30__Changes_.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_rebase__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_rebase__Changes_.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="e604b481-67f9-4e05-9996-c4b52be49c9a" name="Changes" comment="Fix: Fixed package name (#POWERSTRONG)" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -366,7 +361,15 @@
       <option name="project" value="LOCAL" />
       <updated>1764167298957</updated>
     </task>
-    <option name="localTasksCounter" value="32" />
+    <task id="LOCAL-00032" summary="Fix: Fixed package name (#POWERSTRONG)">
+      <option name="closed" value="true" />
+      <created>1764172297513</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1764172297513</updated>
+    </task>
+    <option name="localTasksCounter" value="33" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -401,7 +404,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Feat: Added TargetMuscleGroupRepository (#POWERSTRONG)" />
     <MESSAGE value="Feat: Added TrainingDayRepository (#POWERSTRONG)" />
     <MESSAGE value="Feat: Added TrainingMethodRepository (#POWERSTRONG)" />
     <MESSAGE value="Feat: Added TrainingPlanRepository (#POWERSTRONG)" />
@@ -426,6 +428,7 @@
     <MESSAGE value="Feat: Added UserStatus enum (#POWERSTRONG)" />
     <MESSAGE value="Implement user and training domain entities.&#10;Add JPA repositories for domain models.&#10;(#POWERSTRONG)" />
     <MESSAGE value="Fix: Added project files to version control (#POWERSTRONG)" />
-    <option name="LAST_COMMIT_MESSAGE" value="Fix: Added project files to version control (#POWERSTRONG)" />
+    <MESSAGE value="Fix: Fixed package name (#POWERSTRONG)" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fix: Fixed package name (#POWERSTRONG)" />
   </component>
 </project>
