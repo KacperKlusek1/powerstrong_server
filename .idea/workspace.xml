@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e604b481-67f9-4e05-9996-c4b52be49c9a" name="Changes" comment="Fix: Updated project files (#POWERSTRONG)" />
+    <list default="true" id="e604b481-67f9-4e05-9996-c4b52be49c9a" name="Changes" comment="Rollback: Added project files to version control (#POWERSTRONG)" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -42,7 +42,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="main" />
+        <entry key="$PROJECT_DIR$" value="Feat/Tests" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -377,7 +377,15 @@
       <option name="project" value="LOCAL" />
       <updated>1764172682791</updated>
     </task>
-    <option name="localTasksCounter" value="34" />
+    <task id="LOCAL-00034" summary="Rollback: Added project files to version control (#POWERSTRONG)">
+      <option name="closed" value="true" />
+      <created>1764173067229</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1764173067229</updated>
+    </task>
+    <option name="localTasksCounter" value="35" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -412,7 +420,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Feat: Added TrainingMethodRepository (#POWERSTRONG)" />
     <MESSAGE value="Feat: Added TrainingPlanRepository (#POWERSTRONG)" />
     <MESSAGE value="Feat: Added UserExerciseMaxRepository (#POWERSTRONG)" />
     <MESSAGE value="Feat: Added UserRepository (#POWERSTRONG)" />
@@ -437,6 +444,7 @@
     <MESSAGE value="Fix: Added project files to version control (#POWERSTRONG)" />
     <MESSAGE value="Fix: Fixed package name (#POWERSTRONG)" />
     <MESSAGE value="Fix: Updated project files (#POWERSTRONG)" />
-    <option name="LAST_COMMIT_MESSAGE" value="Fix: Updated project files (#POWERSTRONG)" />
+    <MESSAGE value="Rollback: Added project files to version control (#POWERSTRONG)" />
+    <option name="LAST_COMMIT_MESSAGE" value="Rollback: Added project files to version control (#POWERSTRONG)" />
   </component>
 </project>
