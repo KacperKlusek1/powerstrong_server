@@ -4,7 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e604b481-67f9-4e05-9996-c4b52be49c9a" name="Changes" comment="Fix: Fixed package name (#POWERSTRONG)" />
+    <list default="true" id="e604b481-67f9-4e05-9996-c4b52be49c9a" name="Changes" comment="Fix: Updated project files (#POWERSTRONG)">
+      <change beforePath="$PROJECT_DIR$/.gradle/file-system.probe" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/file-system.probe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pl/pollub/powerstrong_server/exception/ResourceExceptionHandlerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pl/pollub/powerstrong_server/exception/ResourceExceptionHandlerTest.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -46,17 +50,16 @@
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-    <option name="UPDATE_TYPE" value="REBASE" />
   </component>
   <component name="GitRewordedCommitMessages">
     <option name="commitMessagesMapping">
       <RewordedCommitMessageMapping>
-        <option name="originalMessage" value="Feat: Added EffortType model (#POWERSTRONG)" />
-        <option name="rewordedMessage" value="Implement user and training domain entities.&#10;Add JPA repositories for domain models.&#10;(#POWERSTRONG)" />
+        <option name="originalMessage" value="Fix: Fixed api prefix (#POWERSTRONG)" />
+        <option name="rewordedMessage" value="Fix: Updated project files (#POWERSTRONG)&#10;Fix: Fixed api prefix (#POWERSTRONG)" />
       </RewordedCommitMessageMapping>
     </option>
     <option name="currentCommit" value="1" />
-    <option name="onto" value="b7da642bd5b08238de86c7d450af5ee527935ec4" />
+    <option name="onto" value="648e6f5df0c89aa528180322ef4276eeb18ff3dd" />
   </component>
   <component name="GithubPullRequestsUISettings">{
   &quot;selectedUrlAndAccountId&quot;: {
@@ -64,6 +67,14 @@
     &quot;accountId&quot;: &quot;f75b309d-3ec6-4b6b-a1fc-f45ceaf3c67a&quot;
   }
 }</component>
+  <component name="InvalidFacetManager">
+    <ignored-facets>
+      <facet id="powerstrong_server.main/invalid/Web" />
+    </ignored-facets>
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="QODANA_PROBLEMS_VIEW_TAB" />
+  </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 5
 }</component>
@@ -77,7 +88,9 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Gradle.AuthControllerUnitTest.register_returns_ok_with_token.executor": "Run",
     "Gradle.Build powerstrong_server.executor": "Run",
+    "Gradle.powerstrong_server [:PowerstrongServerApplication.main()].executor": "Debug",
     "RequestMappingsPanelOrder0": "0",
     "RequestMappingsPanelOrder1": "1",
     "RequestMappingsPanelWidth0": "75",
@@ -85,8 +98,9 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "Spring Boot.PowerstrongServerApplication.executor": "Run",
-    "git-widget-placeholder": "main",
+    "git-widget-placeholder": "Feat/Tests",
     "kotlin-language-version-configured": "true",
+    "last_directory_selection": "C:/Users/barte/OneDrive/Pulpit/VII semestr/7.SE.1 Zaawansowane Programowanie w Javie/Laboratorium/serwer/powerstrong_server/src/main/java/pl/pollub/powerstrong_server/repository",
     "last_opened_file_path": "C:/Users/barte/OneDrive/Pulpit/VII semestr/7.SE.1 Zaawansowane Programowanie w Javie/Laboratorium/powerstrong_server",
     "node.js.selected.package.tslint": "(autodetect)",
     "project.structure.last.edited": "Modules",
@@ -95,7 +109,31 @@
     "settings.editor.selected.configurable": "reference.settingsdialog.project.gradle"
   }
 }]]></component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Gradle.AuthControllerUnitTest.register_returns_ok_with_token">
+    <configuration name="AuthControllerUnitTest.register_returns_ok_with_token" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;pl.pollub.powerstrong_server.controller.AuthControllerUnitTest.register_returns_ok_with_token&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>true</RunAsTest>
+      <method v="2" />
+    </configuration>
     <configuration name="PowerstrongServerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <module name="powerstrong_server.main" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="pl.pollub.powerstrong_server.PowerstrongServerApplication" />
@@ -103,143 +141,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Gradle.AuthControllerUnitTest.register_returns_ok_with_token" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
-    <task id="LOCAL-00001" summary="Init project">
-      <option name="closed" value="true" />
-      <created>1764161338448</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1764161338448</updated>
-    </task>
     <task active="true" id="Default" summary="Default task">
       <changelist id="e604b481-67f9-4e05-9996-c4b52be49c9a" name="Changes" comment="Init project" />
       <created>1764163326860</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1764163326860</updated>
-    </task>
-    <task id="LOCAL-00002" summary="Feat: Added EffortType model (#POWERSTRONG)">
-      <option name="closed" value="true" />
-      <created>1764166785486</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1764166785486</updated>
-    </task>
-    <task id="LOCAL-00003" summary="Feat: Added EffortTypeRepository (#POWERSTRONG)">
-      <option name="closed" value="true" />
-      <created>1764166870331</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1764166870331</updated>
-    </task>
-    <task id="LOCAL-00004" summary="Feat: Added ExecutedSetRepository (#POWERSTRONG)">
-      <option name="closed" value="true" />
-      <created>1764166907206</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1764166907206</updated>
-    </task>
-    <task id="LOCAL-00005" summary="Feat: Added ExerciseCategoryRepository (#POWERSTRONG)">
-      <option name="closed" value="true" />
-      <created>1764166955600</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1764166955600</updated>
-    </task>
-    <task id="LOCAL-00006" summary="Feat: Added ExerciseRepository (#POWERSTRONG)">
-      <option name="closed" value="true" />
-      <created>1764166964211</created>
-      <option name="number" value="00006" />
-      <option name="presentableId" value="LOCAL-00006" />
-      <option name="project" value="LOCAL" />
-      <updated>1764166964211</updated>
-    </task>
-    <task id="LOCAL-00007" summary="Feat: Added MovementPatternRepository (#POWERSTRONG)">
-      <option name="closed" value="true" />
-      <created>1764166979957</created>
-      <option name="number" value="00007" />
-      <option name="presentableId" value="LOCAL-00007" />
-      <option name="project" value="LOCAL" />
-      <updated>1764166979957</updated>
-    </task>
-    <task id="LOCAL-00008" summary="Feat: Added PlannedExerciseRepository (#POWERSTRONG)">
-      <option name="closed" value="true" />
-      <created>1764166991428</created>
-      <option name="number" value="00008" />
-      <option name="presentableId" value="LOCAL-00008" />
-      <option name="project" value="LOCAL" />
-      <updated>1764166991428</updated>
-    </task>
-    <task id="LOCAL-00009" summary="Feat: Added TargetMuscleGroupRepository (#POWERSTRONG)">
-      <option name="closed" value="true" />
-      <created>1764167012374</created>
-      <option name="number" value="00009" />
-      <option name="presentableId" value="LOCAL-00009" />
-      <option name="project" value="LOCAL" />
-      <updated>1764167012374</updated>
-    </task>
-    <task id="LOCAL-00010" summary="Feat: Added TrainingDayRepository (#POWERSTRONG)">
-      <option name="closed" value="true" />
-      <created>1764167027883</created>
-      <option name="number" value="00010" />
-      <option name="presentableId" value="LOCAL-00010" />
-      <option name="project" value="LOCAL" />
-      <updated>1764167027883</updated>
-    </task>
-    <task id="LOCAL-00011" summary="Feat: Added TrainingMethodRepository (#POWERSTRONG)">
-      <option name="closed" value="true" />
-      <created>1764167038088</created>
-      <option name="number" value="00011" />
-      <option name="presentableId" value="LOCAL-00011" />
-      <option name="project" value="LOCAL" />
-      <updated>1764167038088</updated>
-    </task>
-    <task id="LOCAL-00012" summary="Feat: Added TrainingPlanRepository (#POWERSTRONG)">
-      <option name="closed" value="true" />
-      <created>1764167059449</created>
-      <option name="number" value="00012" />
-      <option name="presentableId" value="LOCAL-00012" />
-      <option name="project" value="LOCAL" />
-      <updated>1764167059449</updated>
-    </task>
-    <task id="LOCAL-00013" summary="Feat: Added UserExerciseMaxRepository (#POWERSTRONG)">
-      <option name="closed" value="true" />
-      <created>1764167077719</created>
-      <option name="number" value="00013" />
-      <option name="presentableId" value="LOCAL-00013" />
-      <option name="project" value="LOCAL" />
-      <updated>1764167077719</updated>
-    </task>
-    <task id="LOCAL-00014" summary="Feat: Added UserRepository (#POWERSTRONG)">
-      <option name="closed" value="true" />
-      <created>1764167094806</created>
-      <option name="number" value="00014" />
-      <option name="presentableId" value="LOCAL-00014" />
-      <option name="project" value="LOCAL" />
-      <updated>1764167094806</updated>
-    </task>
-    <task id="LOCAL-00015" summary="Feat: Added UserTrainingPlanRepository (#POWERSTRONG)">
-      <option name="closed" value="true" />
-      <created>1764167106876</created>
-      <option name="number" value="00015" />
-      <option name="presentableId" value="LOCAL-00015" />
-      <option name="project" value="LOCAL" />
-      <updated>1764167106876</updated>
-    </task>
-    <task id="LOCAL-00016" summary="Feat: Added ExecutedSet model (#POWERSTRONG)">
-      <option name="closed" value="true" />
-      <created>1764167124667</created>
-      <option name="number" value="00016" />
-      <option name="presentableId" value="LOCAL-00016" />
-      <option name="project" value="LOCAL" />
-      <updated>1764167124667</updated>
     </task>
     <task id="LOCAL-00017" summary="Feat: Added Exercise model (#POWERSTRONG)">
       <option name="closed" value="true" />
@@ -369,7 +284,271 @@
       <option name="project" value="LOCAL" />
       <updated>1764172297513</updated>
     </task>
-    <option name="localTasksCounter" value="33" />
+    <task id="LOCAL-00033" summary="Fix: Fixed api prefix (#POWERSTRONG)">
+      <option name="closed" value="true" />
+      <created>1764174959136</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1764174959136</updated>
+    </task>
+    <task id="LOCAL-00034" summary="Fix: Updated project files (#POWERSTRONG)">
+      <option name="closed" value="true" />
+      <created>1764174978964</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1764174978964</updated>
+    </task>
+    <task id="LOCAL-00035" summary="Fix: Updated project files (#POWERSTRONG)">
+      <option name="closed" value="true" />
+      <created>1764180716088</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1764180716089</updated>
+    </task>
+    <task id="LOCAL-00036" summary="Feat: Added PowerstrongServerApplicationTests (#POWERSTRONG)">
+      <option name="closed" value="true" />
+      <created>1764186087816</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1764186087816</updated>
+    </task>
+    <task id="LOCAL-00037" summary="Feat: Added ReferenceDataControllerTest (#POWERSTRONG)">
+      <option name="closed" value="true" />
+      <created>1764186113821</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1764186113821</updated>
+    </task>
+    <task id="LOCAL-00038" summary="Feat: Added ReferenceDataControllerUnitTest (#POWERSTRONG)">
+      <option name="closed" value="true" />
+      <created>1764186124390</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1764186124390</updated>
+    </task>
+    <task id="LOCAL-00039" summary="Feat: Added ReferenceDataIntegrationTest (#POWERSTRONG)">
+      <option name="closed" value="true" />
+      <created>1764186141755</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1764186141755</updated>
+    </task>
+    <task id="LOCAL-00040" summary="Feat: Added ReferenceDataServiceUnitTest (#POWERSTRONG)">
+      <option name="closed" value="true" />
+      <created>1764186155135</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1764186155135</updated>
+    </task>
+    <task id="LOCAL-00041" summary="Feat: Added TrainingCalculationServiceUnitTest (#POWERSTRONG)">
+      <option name="closed" value="true" />
+      <created>1764186180265</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1764186180265</updated>
+    </task>
+    <task id="LOCAL-00042" summary="Feat: Added TrainingControllerUnitTest (#POWERSTRONG)">
+      <option name="closed" value="true" />
+      <created>1764186192074</created>
+      <option name="number" value="00042" />
+      <option name="presentableId" value="LOCAL-00042" />
+      <option name="project" value="LOCAL" />
+      <updated>1764186192074</updated>
+    </task>
+    <task id="LOCAL-00043" summary="Feat: Added TrainingServiceUnitTest (#POWERSTRONG)">
+      <option name="closed" value="true" />
+      <created>1764186204486</created>
+      <option name="number" value="00043" />
+      <option name="presentableId" value="LOCAL-00043" />
+      <option name="project" value="LOCAL" />
+      <updated>1764186204486</updated>
+    </task>
+    <task id="LOCAL-00044" summary="Feat: Added UserControllerUnitTest (#POWERSTRONG)">
+      <option name="closed" value="true" />
+      <created>1764186219027</created>
+      <option name="number" value="00044" />
+      <option name="presentableId" value="LOCAL-00044" />
+      <option name="project" value="LOCAL" />
+      <updated>1764186219027</updated>
+    </task>
+    <task id="LOCAL-00045" summary="Feat: Added UserServiceUnitTest (#POWERSTRONG)">
+      <option name="closed" value="true" />
+      <created>1764186231898</created>
+      <option name="number" value="00045" />
+      <option name="presentableId" value="LOCAL-00045" />
+      <option name="project" value="LOCAL" />
+      <updated>1764186231898</updated>
+    </task>
+    <task id="LOCAL-00046" summary="Feat: Added JwtServiceUnitTest (#POWERSTRONG)">
+      <option name="closed" value="true" />
+      <created>1764186249110</created>
+      <option name="number" value="00046" />
+      <option name="presentableId" value="LOCAL-00046" />
+      <option name="project" value="LOCAL" />
+      <updated>1764186249110</updated>
+    </task>
+    <task id="LOCAL-00047" summary="Feat: Added ExerciseRepositoryTest (#POWERSTRONG)">
+      <option name="closed" value="true" />
+      <created>1764186260918</created>
+      <option name="number" value="00047" />
+      <option name="presentableId" value="LOCAL-00047" />
+      <option name="project" value="LOCAL" />
+      <updated>1764186260918</updated>
+    </task>
+    <task id="LOCAL-00048" summary="Feat: Added ApplicationIntegrationTest (#POWERSTRONG)">
+      <option name="closed" value="true" />
+      <created>1764186284397</created>
+      <option name="number" value="00048" />
+      <option name="presentableId" value="LOCAL-00048" />
+      <option name="project" value="LOCAL" />
+      <updated>1764186284397</updated>
+    </task>
+    <task id="LOCAL-00049" summary="Feat: Added AuthControllerIntegrationTest (#POWERSTRONG)">
+      <option name="closed" value="true" />
+      <created>1764186301847</created>
+      <option name="number" value="00049" />
+      <option name="presentableId" value="LOCAL-00049" />
+      <option name="project" value="LOCAL" />
+      <updated>1764186301847</updated>
+    </task>
+    <task id="LOCAL-00050" summary="Feat: Added AuthControllerTest (#POWERSTRONG)">
+      <option name="closed" value="true" />
+      <created>1764186314523</created>
+      <option name="number" value="00050" />
+      <option name="presentableId" value="LOCAL-00050" />
+      <option name="project" value="LOCAL" />
+      <updated>1764186314523</updated>
+    </task>
+    <task id="LOCAL-00051" summary="Feat: Added AuthControllerUnitTest (#POWERSTRONG)">
+      <option name="closed" value="true" />
+      <created>1764186324489</created>
+      <option name="number" value="00051" />
+      <option name="presentableId" value="LOCAL-00051" />
+      <option name="project" value="LOCAL" />
+      <updated>1764186324489</updated>
+    </task>
+    <task id="LOCAL-00052" summary="Feat: Added AuthenticationServiceUnitTest (#POWERSTRONG)">
+      <option name="closed" value="true" />
+      <created>1764186334661</created>
+      <option name="number" value="00052" />
+      <option name="presentableId" value="LOCAL-00052" />
+      <option name="project" value="LOCAL" />
+      <updated>1764186334661</updated>
+    </task>
+    <task id="LOCAL-00053" summary="Feat: Added application-test.properties (#POWERSTRONG)">
+      <option name="closed" value="true" />
+      <created>1764186346399</created>
+      <option name="number" value="00053" />
+      <option name="presentableId" value="LOCAL-00053" />
+      <option name="project" value="LOCAL" />
+      <updated>1764186346399</updated>
+    </task>
+    <task id="LOCAL-00054" summary="Feat: Added necessary testing dependencies to build.gradle (#POWERSTRONG)">
+      <option name="closed" value="true" />
+      <created>1764186400885</created>
+      <option name="number" value="00054" />
+      <option name="presentableId" value="LOCAL-00054" />
+      <option name="project" value="LOCAL" />
+      <updated>1764186400885</updated>
+    </task>
+    <task id="LOCAL-00055" summary="Fix: Updated project files (#POWERSTRONG)">
+      <option name="closed" value="true" />
+      <created>1764186421751</created>
+      <option name="number" value="00055" />
+      <option name="presentableId" value="LOCAL-00055" />
+      <option name="project" value="LOCAL" />
+      <updated>1764186421751</updated>
+    </task>
+    <task id="LOCAL-00056" summary="Fix: Fixed AuthControllerIntegrationTest (#POWERSTRONG)">
+      <option name="closed" value="true" />
+      <created>1764197448466</created>
+      <option name="number" value="00056" />
+      <option name="presentableId" value="LOCAL-00056" />
+      <option name="project" value="LOCAL" />
+      <updated>1764197448467</updated>
+    </task>
+    <task id="LOCAL-00057" summary="Fix: Fixed EntityDtoMapperTest (#POWERSTRONG)">
+      <option name="closed" value="true" />
+      <created>1764197466893</created>
+      <option name="number" value="00057" />
+      <option name="presentableId" value="LOCAL-00057" />
+      <option name="project" value="LOCAL" />
+      <updated>1764197466893</updated>
+    </task>
+    <task id="LOCAL-00058" summary="Fix: Fixed ExerciseRepositoryTest (#POWERSTRONG)">
+      <option name="closed" value="true" />
+      <created>1764197477599</created>
+      <option name="number" value="00058" />
+      <option name="presentableId" value="LOCAL-00058" />
+      <option name="project" value="LOCAL" />
+      <updated>1764197477599</updated>
+    </task>
+    <task id="LOCAL-00059" summary="Fix: Fixed JwtAuthenticationFilterTest (#POWERSTRONG)">
+      <option name="closed" value="true" />
+      <created>1764197495017</created>
+      <option name="number" value="00059" />
+      <option name="presentableId" value="LOCAL-00059" />
+      <option name="project" value="LOCAL" />
+      <updated>1764197495017</updated>
+    </task>
+    <task id="LOCAL-00060" summary="Fix: Fixed ReferenceDataIntegrationTest (#POWERSTRONG)">
+      <option name="closed" value="true" />
+      <created>1764197513184</created>
+      <option name="number" value="00060" />
+      <option name="presentableId" value="LOCAL-00060" />
+      <option name="project" value="LOCAL" />
+      <updated>1764197513184</updated>
+    </task>
+    <task id="LOCAL-00061" summary="Fix: Fixed ResourceExceptionHandlerTest (#POWERSTRONG)">
+      <option name="closed" value="true" />
+      <created>1764197532744</created>
+      <option name="number" value="00061" />
+      <option name="presentableId" value="LOCAL-00061" />
+      <option name="project" value="LOCAL" />
+      <updated>1764197532744</updated>
+    </task>
+    <task id="LOCAL-00062" summary="Fix: Fixed TestSecurityConfig (#POWERSTRONG)">
+      <option name="closed" value="true" />
+      <created>1764197548860</created>
+      <option name="number" value="00062" />
+      <option name="presentableId" value="LOCAL-00062" />
+      <option name="project" value="LOCAL" />
+      <updated>1764197548860</updated>
+    </task>
+    <task id="LOCAL-00063" summary="Fix: Fixed TrainingServiceRecordCalculationTest (#POWERSTRONG)">
+      <option name="closed" value="true" />
+      <created>1764197560594</created>
+      <option name="number" value="00063" />
+      <option name="presentableId" value="LOCAL-00063" />
+      <option name="project" value="LOCAL" />
+      <updated>1764197560594</updated>
+    </task>
+    <task id="LOCAL-00064" summary="Fix: Fixed TrainingServiceUnitTest (#POWERSTRONG)">
+      <option name="closed" value="true" />
+      <created>1764197570523</created>
+      <option name="number" value="00064" />
+      <option name="presentableId" value="LOCAL-00064" />
+      <option name="project" value="LOCAL" />
+      <updated>1764197570524</updated>
+    </task>
+    <task id="LOCAL-00065" summary="Fix: Updated project files (#POWERSTRONG)">
+      <option name="closed" value="true" />
+      <created>1764197587533</created>
+      <option name="number" value="00065" />
+      <option name="presentableId" value="LOCAL-00065" />
+      <option name="project" value="LOCAL" />
+      <updated>1764197587533</updated>
+    </task>
+    <option name="localTasksCounter" value="66" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -404,31 +583,31 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Feat: Added TrainingDayRepository (#POWERSTRONG)" />
-    <MESSAGE value="Feat: Added TrainingMethodRepository (#POWERSTRONG)" />
-    <MESSAGE value="Feat: Added TrainingPlanRepository (#POWERSTRONG)" />
-    <MESSAGE value="Feat: Added UserExerciseMaxRepository (#POWERSTRONG)" />
-    <MESSAGE value="Feat: Added UserRepository (#POWERSTRONG)" />
-    <MESSAGE value="Feat: Added UserTrainingPlanRepository (#POWERSTRONG)" />
-    <MESSAGE value="Feat: Added ExecutedSet model (#POWERSTRONG)" />
-    <MESSAGE value="Feat: Added Exercise model (#POWERSTRONG)" />
-    <MESSAGE value="Feat: Added ExerciseCategory model (#POWERSTRONG)" />
-    <MESSAGE value="Feat: Added MovementPattern model (#POWERSTRONG)" />
-    <MESSAGE value="Feat: Added PlannedExercise model (#POWERSTRONG)" />
-    <MESSAGE value="Feat: Added TargetMuscleGroup model (#POWERSTRONG)" />
-    <MESSAGE value="Feat: Added TrainingDay model (#POWERSTRONG)" />
-    <MESSAGE value="Feat: Added TrainingMethod model (#POWERSTRONG)" />
-    <MESSAGE value="Feat: Added TrainingPlan model (#POWERSTRONG)" />
-    <MESSAGE value="Feat: Added User model (#POWERSTRONG)" />
-    <MESSAGE value="Feat: Added UserExerciseMax model (#POWERSTRONG)" />
-    <MESSAGE value="Feat: Added UserTrainingPlan model (#POWERSTRONG)" />
-    <MESSAGE value="Feat: Added PlanStatus enum (#POWERSTRONG)" />
-    <MESSAGE value="Feat: Added SuggestionType enum (#POWERSTRONG)" />
-    <MESSAGE value="Feat: Added UserRole enum (#POWERSTRONG)" />
-    <MESSAGE value="Feat: Added UserStatus enum (#POWERSTRONG)" />
-    <MESSAGE value="Implement user and training domain entities.&#10;Add JPA repositories for domain models.&#10;(#POWERSTRONG)" />
-    <MESSAGE value="Fix: Added project files to version control (#POWERSTRONG)" />
-    <MESSAGE value="Fix: Fixed package name (#POWERSTRONG)" />
-    <option name="LAST_COMMIT_MESSAGE" value="Fix: Fixed package name (#POWERSTRONG)" />
+    <MESSAGE value="Feat: Added ReferenceDataServiceUnitTest (#POWERSTRONG)" />
+    <MESSAGE value="Feat: Added TrainingCalculationServiceUnitTest (#POWERSTRONG)" />
+    <MESSAGE value="Feat: Added TrainingControllerUnitTest (#POWERSTRONG)" />
+    <MESSAGE value="Feat: Added TrainingServiceUnitTest (#POWERSTRONG)" />
+    <MESSAGE value="Feat: Added UserControllerUnitTest (#POWERSTRONG)" />
+    <MESSAGE value="Feat: Added UserServiceUnitTest (#POWERSTRONG)" />
+    <MESSAGE value="Feat: Added JwtServiceUnitTest (#POWERSTRONG)" />
+    <MESSAGE value="Feat: Added ExerciseRepositoryTest (#POWERSTRONG)" />
+    <MESSAGE value="Feat: Added ApplicationIntegrationTest (#POWERSTRONG)" />
+    <MESSAGE value="Feat: Added AuthControllerIntegrationTest (#POWERSTRONG)" />
+    <MESSAGE value="Feat: Added AuthControllerTest (#POWERSTRONG)" />
+    <MESSAGE value="Feat: Added AuthControllerUnitTest (#POWERSTRONG)" />
+    <MESSAGE value="Feat: Added AuthenticationServiceUnitTest (#POWERSTRONG)" />
+    <MESSAGE value="Feat: Added application-test.properties (#POWERSTRONG)" />
+    <MESSAGE value="Feat: Added necessary testing dependencies to build.gradle (#POWERSTRONG)" />
+    <MESSAGE value="Fix: Fixed AuthControllerIntegrationTest (#POWERSTRONG)" />
+    <MESSAGE value="Fix: Fixed EntityDtoMapperTest (#POWERSTRONG)" />
+    <MESSAGE value="Fix: Fixed ExerciseRepositoryTest (#POWERSTRONG)" />
+    <MESSAGE value="Fix: Fixed JwtAuthenticationFilterTest (#POWERSTRONG)" />
+    <MESSAGE value="Fix: Fixed ReferenceDataIntegrationTest (#POWERSTRONG)" />
+    <MESSAGE value="Fix: Fixed ResourceExceptionHandlerTest (#POWERSTRONG)" />
+    <MESSAGE value="Fix: Fixed TestSecurityConfig (#POWERSTRONG)" />
+    <MESSAGE value="Fix: Fixed TrainingServiceRecordCalculationTest (#POWERSTRONG)" />
+    <MESSAGE value="Fix: Fixed TrainingServiceUnitTest (#POWERSTRONG)" />
+    <MESSAGE value="Fix: Updated project files (#POWERSTRONG)" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fix: Updated project files (#POWERSTRONG)" />
   </component>
 </project>
