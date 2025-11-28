@@ -4,14 +4,19 @@ import com.fasterxml.jackson.databind.ObjectMapper;
 import org.junit.jupiter.api.Test;
 import org.mockito.*;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.boot.test.autoconfigure.web.servlet.AutoConfigureMockMvc;
 import org.springframework.boot.test.autoconfigure.web.servlet.WebMvcTest;
 import org.springframework.boot.test.mock.mockito.MockBean;
+import org.springframework.context.annotation.Import;
 import org.springframework.security.core.Authentication;
 import org.springframework.test.web.servlet.MockMvc;
+import pl.pollub.powerstrong_server.config.TestSecurityConfig;
 import pl.pollub.powerstrong_server.dto.UserDto;
 import pl.pollub.powerstrong_server.model.User;
+import pl.pollub.powerstrong_server.service.JwtService;
 import pl.pollub.powerstrong_server.service.TrainingService;
 import pl.pollub.powerstrong_server.service.UserService;
+import pl.pollub.powerstrong_server.utils.JwtAuthenticationFilter;
 
 import java.util.List;
 
@@ -20,6 +25,8 @@ import static org.springframework.test.web.servlet.request.MockMvcRequestBuilder
 import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.*;
 
 @WebMvcTest(UserController.class)
+@Import(TestSecurityConfig.class)
+@AutoConfigureMockMvc(addFilters = false)
 class UserControllerUnitTest {
 
     @Autowired
@@ -28,6 +35,10 @@ class UserControllerUnitTest {
     UserService userService;
     @MockBean
     TrainingService trainingService;
+    @MockBean
+    JwtAuthenticationFilter jwtAuthenticationFilter;
+    @MockBean
+    JwtService jwtService;
 
     @Test
     void getCurrentUser_returns_userDto() throws Exception {

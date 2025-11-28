@@ -15,14 +15,11 @@ class ResourceExceptionHandlerTest {
 
     @Test
     void resourceNotFoundHandling_shouldReturnNotFoundStatusAndMessage() {
-        // given
         ResourceNotFoundException ex = new ResourceNotFoundException("User not found");
         WebRequest request = mock(WebRequest.class);
 
-        // when
         ResponseEntity<?> response = handler.resourceNotFoundHandling(ex, request);
 
-        // then
         assertEquals(404, response.getStatusCode().value());
         assertTrue(response.getBody() instanceof Map);
 

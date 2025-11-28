@@ -1,5 +1,6 @@
 package pl.pollub.powerstrong_server.config;
 
+import org.springframework.context.annotation.Profile;
 import pl.pollub.powerstrong_server.utils.JwtAuthenticationFilter;
 import lombok.RequiredArgsConstructor;
 import org.springframework.context.annotation.Bean;
@@ -14,6 +15,7 @@ import org.springframework.security.web.authentication.UsernamePasswordAuthentic
 @Configuration
 @EnableWebSecurity
 @RequiredArgsConstructor
+@Profile("!test")
 public class SecurityConfig {
 
     private final JwtAuthenticationFilter jwtAuthFilter;

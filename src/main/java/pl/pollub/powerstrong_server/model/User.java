@@ -22,6 +22,7 @@ import java.util.Set;
 @Getter
 @Setter
 @NoArgsConstructor
+//@Table(name = "users") //Potrzebne do testów integracyjnych oraz repozytoriów korzytsających z hibernate
 public class User implements UserDetails {
 
     @Id

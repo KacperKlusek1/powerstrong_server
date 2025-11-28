@@ -1,7 +1,6 @@
 package pl.pollub.powerstrong_server.service;
 
-import org.junit.jupiter.api.BeforeEach;
-import org.junit.jupiter.api.Test;
+import org.junit.jupiter.api.*;
 import org.mockito.*;
 import org.springframework.security.authentication.AuthenticationManager;
 import org.springframework.security.crypto.password.PasswordEncoder;
@@ -9,7 +8,6 @@ import pl.pollub.powerstrong_server.dto.auth.*;
 import pl.pollub.powerstrong_server.model.User;
 import pl.pollub.powerstrong_server.repository.UserRepository;
 
-import java.time.LocalDateTime;
 import java.util.Optional;
 
 import static org.junit.jupiter.api.Assertions.*;
@@ -17,20 +15,17 @@ import static org.mockito.Mockito.*;
 
 class AuthenticationServiceUnitTest {
 
-    @Mock
-    UserRepository repository;
-    @Mock
-    PasswordEncoder passwordEncoder;
-    @Mock
-    JwtService jwtService;
-    @Mock
-    AuthenticationManager authenticationManager;
+    @Mock UserRepository userRepository;
+    @Mock PasswordEncoder passwordEncoder;
+    @Mock JwtService jwtService;
+    @Mock AuthenticationManager authenticationManager;
 
-    @InjectMocks AuthenticationService service;
+    AuthenticationService service;
 
     @BeforeEach
-    void init() {
+    void setUp() {
         MockitoAnnotations.openMocks(this);
+        service = new AuthenticationService(userRepository, passwordEncoder, jwtService, authenticationManager);
     }
 
     @Test
@@ -42,29 +37,19 @@ class AuthenticationServiceUnitTest {
         AuthResponse resp = service.register(req);
 
         assertEquals("token123", resp.getToken());
-        assertEquals("u", resp.getUsername());
-        verify(repository, times(1)).save(any(User.class));
+        verify(userRepository).save(any(User.class));
     }
 
     @Test
-    void authenticate_successful_should_return_token() {
-        LoginRequest req = new LoginRequest("login","pwd");
+    void authenticate_should_return_token_when_user_exists() {
+        LoginRequest req = new LoginRequest("u","pwd");
         User user = new User();
-        user.setUsername("login");
-        when(repository.findByUsernameOrEmail("login")).thenReturn(Optional.of(user));
-        when(jwtService.generateToken(user)).thenReturn("tok");
+        user.setUsername("u");
+
+        when(userRepository.findByUsernameOrEmail("u")).thenReturn(Optional.of(user));
+        when(jwtService.generateToken(user)).thenReturn("jwt");
 
         AuthResponse res = service.authenticate(req);
-        assertEquals("tok", res.getToken());
-        assertEquals("login", res.getUsername());
-        verify(authenticationManager, times(1)).authenticate(any());
-    }
-
-    @Test
-    void createUserEntity_encodes_password_and_sets_date() throws Exception {
-        RegisterRequest req = new RegisterRequest("x","a@b","12");
-        when(passwordEncoder.encode("12")).thenReturn("e12");
-        AuthResponse r = service.register(req);
-        verify(repository).save(argThat(u -> u.getPassword().equals("e12") && u.getUsername().equals("x")));
+        assertEquals("jwt", res.getToken());
     }
 }

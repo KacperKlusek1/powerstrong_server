@@ -37,7 +37,7 @@ class TrainingCalculationServiceUnitTest {
 
         assertEquals(0.0, dto.getTargetWeight());
         assertNotNull(dto.getSuggestionType());
-        assertEquals(8.0, dto.getSuggestionValue()); // mapEffortToRpeValue("Volume") -> 8.0
+        assertEquals(8.0, dto.getSuggestionValue());
     }
 
     @Test
@@ -70,7 +70,6 @@ class TrainingCalculationServiceUnitTest {
         PlannedExerciseDto dto = new PlannedExerciseDto();
         svc.calculateTargetWeightForDto(dto, p, Optional.of(max));
 
-        // 101 * 0.8 = 80.8 -> rounded to nearest 2.5 => 80.0
         assertEquals(80.0, dto.getTargetWeight());
         assertEquals(0.8, dto.getSuggestionValue());
     }

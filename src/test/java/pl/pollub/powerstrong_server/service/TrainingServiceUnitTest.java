@@ -94,14 +94,12 @@ public class TrainingServiceUnitTest {
         planned.setExercise(ex);
         when(plannedExerciseRepository.findById(1)).thenReturn(Optional.of(planned));
 
-        // no existing user max
         when(userExerciseMaxRepository.findByUserIdAndExerciseId(1, 5)).thenReturn(Optional.empty());
 
         ExecutedSetDto dto = new ExecutedSetDto(1,1,5,100.0);
         service.saveExecutedSets(1, List.of(dto));
 
         verify(executedSetRepository).saveAll(anyList());
-        // userExerciseMaxRepository.save called via updateUserMaxIfNeeded because reps>0 and weight>0
         verify(userExerciseMaxRepository, atLeastOnce()).save(any());
     }
 
@@ -113,29 +111,36 @@ public class TrainingServiceUnitTest {
 
     @Test
     void createCustomPlan_builds_and_assigns() {
-        User u = new User(); u.setId(2);
+        User u = new User();
+        u.setId(2);
         when(userRepository.findById(2)).thenReturn(Optional.of(u));
 
         TrainingMethod tm = new TrainingMethod();
         tm.setId(5);
         tm.setDurationOfCycle(1);
         when(trainingMethodRepository.findById(5)).thenReturn(Optional.of(tm));
-        when(trainingMethodRepository.findById(5)).thenReturn(Optional.of(tm));
-        when(trainingMethodRepository.findById(5)).thenReturn(Optional.of(tm));
-        when(trainingMethodRepository.findById(5)).thenReturn(Optional.of(tm));
 
-        // mock exercise lookup
         Exercise ex = new Exercise(); ex.setId(1); ex.setName("E");
         when(exerciseRepository.findById(1)).thenReturn(Optional.of(ex));
-        when(trainingPlanRepository.save(any())).thenAnswer(inv -> inv.getArgument(0));
+
+        when(trainingPlanRepository.save(any(TrainingPlan.class))).thenAnswer(inv -> {
+            TrainingPlan p = inv.getArgument(0);
+            p.setId(100);
+            return p;
+        });
+
+        when(trainingPlanRepository.findById(100)).thenAnswer(inv -> {
+            TrainingPlan p = new TrainingPlan();
+            p.setId(100);
+            return Optional.of(p);
+        });
 
         PlannedExerciseDto ped = new PlannedExerciseDto(1, "E", null,1,5,null,null,null,1,"Volume");
-        TrainingDayDto dayDto = new TrainingDayDto(null, null, "D", 1, 0, 1, List.of(ped));
-        TrainingPlanFullDto dto = new TrainingPlanFullDto(null, "Custom", null, null, null, 5, List.of(dayDto));
+        TrainingDayDto dayDto = new TrainingDayDto(1, 1, "D", 1, 0, 1, List.of(ped));
+        TrainingPlanFullDto dto = new TrainingPlanFullDto(1, "Custom", "2025-01-01", null, null, 5, List.of(dayDto));
 
         service.createCustomPlan(dto, 2);
 
-        // saved plan -> assignPlanToUser will be invoked, so userTrainingPlanRepository.save called at least once
-        verify(userTrainingPlanRepository, atLeastOnce()).save(any());
+        verify(userTrainingPlanRepository, atLeastOnce()).save(any(UserTrainingPlan.class));
     }
 }

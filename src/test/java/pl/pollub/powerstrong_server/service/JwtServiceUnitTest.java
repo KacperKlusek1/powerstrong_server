@@ -17,7 +17,6 @@ class JwtServiceUnitTest {
     @BeforeEach
     void init() {
         jwtService = new JwtService();
-        // Use a base64 secret of appropriate length
         String secret = "cG93ZXJzdHJvbmdzdXBlcm1lZ2F1bHRyYXBvd2VyZnVsdW5rbm93bnNlY3JldHBhc3N3b3Jk";
         ReflectionTestUtils.setField(jwtService, "jwtSecret", secret);
         ReflectionTestUtils.setField(jwtService, "jwtExpirationMs", 1000 * 60 * 60L);

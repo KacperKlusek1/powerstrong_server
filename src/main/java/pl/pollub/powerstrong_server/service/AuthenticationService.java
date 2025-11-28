@@ -9,6 +9,8 @@ import org.springframework.transaction.annotation.Transactional;
 import pl.pollub.powerstrong_server.dto.auth.AuthResponse;
 import pl.pollub.powerstrong_server.dto.auth.LoginRequest;
 import pl.pollub.powerstrong_server.dto.auth.RegisterRequest;
+import pl.pollub.powerstrong_server.enums.UserRole;
+import pl.pollub.powerstrong_server.enums.UserStatus;
 import pl.pollub.powerstrong_server.model.User;
 import pl.pollub.powerstrong_server.repository.UserRepository;
 
@@ -42,6 +44,8 @@ public class AuthenticationService {
         user.setUsername(request.getUsername());
         user.setEmail(request.getEmail());
         user.setPassword(passwordEncoder.encode(request.getPassword()));
+        user.setRole(UserRole.USER);
+        user.setStatus(UserStatus.ACTIVE);
         user.setCreateDate(LocalDateTime.now());
         return user;
     }

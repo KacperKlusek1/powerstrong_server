@@ -5,6 +5,7 @@ import pl.pollub.powerstrong_server.dto.*;
 import pl.pollub.powerstrong_server.model.*;
 
 import java.util.Set;
+import java.util.List;
 
 import static org.junit.jupiter.api.Assertions.*;
 
@@ -21,6 +22,7 @@ public class EntityDtoMapperTest {
         TrainingDay day = new TrainingDay();
         day.setId(10);
         day.setDayName("Day A");
+        day.setTrainingPlan(plan);
 
         Exercise ex = new Exercise();
         ex.setId(100);

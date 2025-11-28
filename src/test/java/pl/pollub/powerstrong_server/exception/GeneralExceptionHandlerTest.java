@@ -15,14 +15,11 @@ class GeneralExceptionHandlerTest {
 
     @Test
     void globalExceptionHandling_shouldReturn500AndFormattedMessage() {
-        // given
         Exception ex = new RuntimeException("Unexpected failure");
         WebRequest request = mock(WebRequest.class);
 
-        // when
         ResponseEntity<?> response = handler.globalExceptionHandling(ex, request);
 
-        // then
         assertEquals(500, response.getStatusCode().value());
         assertTrue(response.getBody() instanceof Map);
 

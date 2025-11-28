@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="pl.pollub.powerstrong_server.service.TrainingServiceRecordCalculationTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2025-12-01T16:08:27.046Z" hostname="DELL_BARTEK" time="1.096">
+  <properties/>
+  <testcase name="updateUserMax_does_nothing_when_value_lower()" classname="pl.pollub.powerstrong_server.service.TrainingServiceRecordCalculationTest" time="1.096"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

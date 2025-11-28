@@ -18,25 +18,20 @@ class ValidationExceptionHandlerTest {
 
     @Test
     void handleValidationExceptions_shouldReturnFieldErrorsMap() {
-        // Mock field error
         FieldError fieldError = new FieldError(
                 "objectName",
                 "username",
                 "must not be empty"
         );
 
-        // Mock BindingResult
         BindingResult bindingResult = mock(BindingResult.class);
         when(bindingResult.getAllErrors()).thenReturn(List.of(fieldError));
 
-        // Mock MethodArgumentNotValidException
         MethodArgumentNotValidException ex =
                 new MethodArgumentNotValidException(null, bindingResult);
 
-        // when
         ResponseEntity<?> response = handler.handleValidationExceptions(ex);
 
-        // then
         assertEquals(400, response.getStatusCode().value());
         assertTrue(response.getBody() instanceof Map);
 
