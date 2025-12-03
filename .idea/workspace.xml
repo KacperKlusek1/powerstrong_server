@@ -4,7 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e604b481-67f9-4e05-9996-c4b52be49c9a" name="Changes" comment="Fix: Updated project files (#POWERSTRONG)" />
+    <list default="true" id="e604b481-67f9-4e05-9996-c4b52be49c9a" name="Changes" comment="Fix: Updated project files (#POWERSTRONG)">
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Merge_at_26_11_2025_14_30__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Merge_at_26_11_2025_14_30__Changes_.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_rebase__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_rebase__Changes_.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -85,55 +89,55 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Gradle.AuthControllerIntegrationTest.executor": "Run",
-    "Gradle.AuthControllerUnitTest (1).executor": "Run",
-    "Gradle.AuthControllerUnitTest.executor": "Run",
-    "Gradle.AuthControllerUnitTest.register_returns_ok_with_token.executor": "Run",
-    "Gradle.AuthenticationServiceUnitTest.executor": "Run",
-    "Gradle.Build powerstrong_server.executor": "Run",
-    "Gradle.EntityDtoMapperTest.executor": "Run",
-    "Gradle.ExerciseRepositoryTest.executor": "Run",
-    "Gradle.ExerciseRepositoryTest.findAllWithDetails_returns_saved_exercise.executor": "Run",
-    "Gradle.GeneralExceptionHandlerTest.executor": "Run",
-    "Gradle.JwtAuthenticationFilterTest.executor": "Run",
-    "Gradle.JwtServiceUnitTest.executor": "Run",
-    "Gradle.ReferenceDataControllerUnitTest.executor": "Run",
-    "Gradle.ReferenceDataControllerUnitTest.getCategories_returns_list.executor": "Run",
-    "Gradle.ReferenceDataControllerUnitTest.getExercises_returns_list.executor": "Run",
-    "Gradle.ReferenceDataIntegrationTest.executor": "Run",
-    "Gradle.ReferenceDataServiceUnitTest.executor": "Run",
-    "Gradle.ResourceExceptionHandlerTest.executor": "Run",
-    "Gradle.TrainingCalculationServiceUnitTest.executor": "Run",
-    "Gradle.TrainingControllerUnitTest.executor": "Run",
-    "Gradle.TrainingServiceRecordCalculationTest.executor": "Run",
-    "Gradle.TrainingServiceRecordCalculationTest.updateUserMax_does_nothing_when_value_lower.executor": "Run",
-    "Gradle.TrainingServiceUnitTest.createCustomPlan_builds_and_assigns.executor": "Run",
-    "Gradle.TrainingServiceUnitTest.executor": "Run",
-    "Gradle.UserControllerUnitTest.executor": "Run",
-    "Gradle.UserRepositoryTest.executor": "Run",
-    "Gradle.UserServiceUnitTest.executor": "Run",
-    "Gradle.ValidationExceptionHandlerTest.executor": "Run",
-    "Gradle.powerstrong_server [:PowerstrongServerApplication.main()].executor": "Run",
-    "RequestMappingsPanelOrder0": "0",
-    "RequestMappingsPanelOrder1": "1",
-    "RequestMappingsPanelWidth0": "75",
-    "RequestMappingsPanelWidth1": "75",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "Spring Boot.PowerstrongServerApplication.executor": "Run",
-    "git-widget-placeholder": "Feat/Tests",
-    "kotlin-language-version-configured": "true",
-    "last_directory_selection": "C:/Users/barte/OneDrive/Pulpit/VII semestr/7.SE.1 Zaawansowane Programowanie w Javie/Laboratorium/serwer/powerstrong_server/src/main/java/pl/pollub/powerstrong_server/repository",
-    "last_opened_file_path": "C:/powerstrong_server",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0",
-    "settings.editor.selected.configurable": "reference.settingsdialog.project.gradle"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Gradle.AuthControllerIntegrationTest.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.AuthControllerUnitTest (1).executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.AuthControllerUnitTest.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.AuthControllerUnitTest.register_returns_ok_with_token.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.AuthenticationServiceUnitTest.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.Build powerstrong_server.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.EntityDtoMapperTest.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.ExerciseRepositoryTest.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.ExerciseRepositoryTest.findAllWithDetails_returns_saved_exercise.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.GeneralExceptionHandlerTest.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.JwtAuthenticationFilterTest.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.JwtServiceUnitTest.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.ReferenceDataControllerUnitTest.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.ReferenceDataControllerUnitTest.getCategories_returns_list.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.ReferenceDataControllerUnitTest.getExercises_returns_list.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.ReferenceDataIntegrationTest.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.ReferenceDataServiceUnitTest.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.ResourceExceptionHandlerTest.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.TrainingCalculationServiceUnitTest.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.TrainingControllerUnitTest.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.TrainingServiceRecordCalculationTest.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.TrainingServiceRecordCalculationTest.updateUserMax_does_nothing_when_value_lower.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.TrainingServiceUnitTest.createCustomPlan_builds_and_assigns.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.TrainingServiceUnitTest.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.UserControllerUnitTest.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.UserRepositoryTest.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.UserServiceUnitTest.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.ValidationExceptionHandlerTest.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.powerstrong_server [:PowerstrongServerApplication.main()].executor&quot;: &quot;Run&quot;,
+    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
+    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
+    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
+    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;Spring Boot.PowerstrongServerApplication.executor&quot;: &quot;Run&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;Feat/Tests&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_directory_selection&quot;: &quot;C:/Users/barte/OneDrive/Pulpit/VII semestr/7.SE.1 Zaawansowane Programowanie w Javie/Laboratorium/serwer/powerstrong_server/src/main/java/pl/pollub/powerstrong_server/repository&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/powerstrong_server&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settingsdialog.project.gradle&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager" selected="Gradle.TrainingServiceRecordCalculationTest.updateUserMax_does_nothing_when_value_lower">
     <configuration name="AuthControllerIntegrationTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
