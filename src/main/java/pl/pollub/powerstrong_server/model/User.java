@@ -22,6 +22,8 @@ import java.util.Set;
 @Getter
 @Setter
 @NoArgsConstructor
+//Adnotacja @Table jest kluczowa do przeprowadzenia testów integracyjnych
+//@Table(name = "users")
 public class User implements UserDetails {
 
     @Id
